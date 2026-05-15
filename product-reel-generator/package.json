@@ -1,0 +1,17 @@
+{
+  "name": "product-reel-generator",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Example: turn a product image + description into a social media reel via Varosity MCP",
+  "scripts": {
+    "reel": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "tsx": "^4.0.0",
+    "typescript": "^5"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "brand-campaign-agent",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Example: run a multi-shot brand campaign via the Varosity MCP API",
+  "scripts": {
+    "campaign": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "tsx": "^4.0.0",
+    "typescript": "^5"
+  }
+}
