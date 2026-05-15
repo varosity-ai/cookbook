@@ -1,7 +1,7 @@
 {
-  "name": "@varosity-cookbook/multi-model-comparison",
+  "name": "@varosity-cookbook/instagram-carousel-generator",
   "version": "0.1.0",
-  "description": "Render with Kling, Veo, Runway side-by-side",
+  "description": "Generate 5 Instagram-ready videos (1:1, 4:5, 9:16 formats) from product description",
   "type": "module",
   "scripts": {
     "generate": "node --loader ts-node/esm src/index.ts",
@@ -11,10 +11,16 @@
   "keywords": [
     "varosity",
     "video",
-    "ai"
+    "ai",
+    "instagram",
+    "carousel",
+    "e-commerce"
   ],
+  "author": "Varosity",
+  "license": "MIT",
   "dependencies": {
-    "dotenv": "^16.0.0"
+    "dotenv": "^16.0.0",
+    "node-fetch": "^3.0.0"
   },
   "devDependencies": {
     "@types/node": "^20.0.0",
