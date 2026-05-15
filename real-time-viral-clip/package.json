@@ -1,0 +1,24 @@
+{
+  "name": "@varosity-cookbook/real-time-viral-clip",
+  "version": "0.1.0",
+  "description": "Trending topic \u2192 video in < 5 min",
+  "type": "module",
+  "scripts": {
+    "generate": "node --loader ts-node/esm src/index.ts",
+    "build": "tsc",
+    "dev": "node --watch --loader ts-node/esm src/index.ts"
+  },
+  "keywords": [
+    "varosity",
+    "video",
+    "ai"
+  ],
+  "dependencies": {
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0"
+  }
+}

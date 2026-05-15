@@ -1,0 +1,24 @@
+{
+  "name": "@varosity-cookbook/webhook-async-pipeline",
+  "version": "0.1.0",
+  "description": "Async rendering with webhook notifications",
+  "type": "module",
+  "scripts": {
+    "generate": "node --loader ts-node/esm src/index.ts",
+    "build": "tsc",
+    "dev": "node --watch --loader ts-node/esm src/index.ts"
+  },
+  "keywords": [
+    "varosity",
+    "video",
+    "ai"
+  ],
+  "dependencies": {
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0"
+  }
+}
