@@ -73,7 +73,10 @@ function verifyWebhook(payload: string, signature: string, secret: string): bool
     .update(payload)
     .digest("hex");
   
-  return crypto.timingSafeEqual(hash, signature);
+  return crypto.timingSafeEqual(
+    Buffer.from(hash),
+    Buffer.from(signature)
+  );
 }
 ```
 
